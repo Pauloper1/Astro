@@ -1,19 +1,30 @@
 .cardContainer {
     margin: 1rem;
     display: grid;
-    grid-template-columns: repeat(3, 1fr); /* 2 columns */
-    grid-template-rows: repeat(3, auto); /* 3 rows */
-    gap: 5px; /* Gap between cards */
-    justify-content: center; /* Center horizontally */
-    align-items: center; /* Center vertically */
-
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, auto);
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
 }
 
-.card-body{
+.card-body {
     display: block;
     background-color: white;
     margin: 5px;
     border-radius: 20px;
     text-align: left;
-    
+
+}
+
+
+@media screen and (max-width: 768px) {
+    .cardContainer {
+        margin: 1rem;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 5px;
+        justify-content: center;
+        align-items: center;
+    }
 }

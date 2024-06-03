@@ -84,8 +84,6 @@ export const Home = () => {
                 </div>
 
             </div>
-
-            <div>Home</div>
         </>
     )
 }

@@ -126,9 +126,12 @@
 /* Media query for smaller screens */
 @media screen and (max-width: 768px) {
     #banner1 {
-        height: 80vh; /* Adjust height for smaller screens */
+        height: 80vh;
     }
 
+    #banner2 {
+        height: 110vh;
+    }
     #scirle {
         width: 5rem; /* Adjust circle size for smaller screens */
     }
@@ -149,10 +152,17 @@
         width: 10rem;
     }
 
+
     #sectionbg{
         width: 15rem;
     }
-    /* Other styles for smaller screens... */
+
+    .content{
+        width: 6rem;
+    }
+    #tablecirle{
+        width: 5rem;
+    }
 }
 
 /* Media query for medium screens */
@@ -166,7 +176,6 @@
         margin: 0;
     }
 
-    /* Other styles for medium screens... */
 }
 
 /* Media query for larger screens */
