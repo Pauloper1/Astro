@@ -19,12 +19,12 @@ export const Home = () => {
                             <button id='exploreBtn'>Explore</button>
                         </div>
                     </div>
-                    <img id="scirle" src="src\assets\Purple_Circle_2.png" alt="circle1" />
-                    <img id="bcirle" src="src\assets\Purple_Circle.png" alt="circle1" />
+                    <img id="scirle" src="public\Purple_Circle_2.png" alt="circle1" />
+                    <img id="bcirle" src="public\Purple_Circle.png" alt="circle1" />
                     
                 </div>
 
-                <img id='sectionbg' alt='softwareImage' src='src\assets\section1.png'></img>
+                <img id='sectionbg' alt='softwareImage' src='public\section1.png'></img>
             </div>
             <div id='banner2'>
                 <div class="contentContainer">
@@ -47,7 +47,7 @@ export const Home = () => {
                 <div className="workWrapper">
                     <div className="workContent">
                         <div>
-                            <h2>Enter your post’s title & keyword</h2>
+                            <h2>Enter your post's title & keyword</h2>
                             <p>
                                 Simply provide our AI writer with 1-2 sentences on what to write, and it’ll understand and start writing for you.
                             </p>
@@ -62,7 +62,7 @@ export const Home = () => {
                     <div className="table">
                         <Table />
                     </div>
-                    <img id="tablecirle" src="src\assets\Purple_Circle.png" alt="circle1" />
+                    <img id="tablecirle" src="public\Purple_Circle.png" alt="circle1" />
                 </div>
                 <div className="workWrapper">
                     <div className="content">
