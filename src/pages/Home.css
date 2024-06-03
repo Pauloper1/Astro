@@ -16,6 +16,17 @@
     opacity: 0.8;
 }
 
+.btn-outline-success {
+    border-radius: 20px;
+    border-color: #6f42c1; 
+    color: #6f42c1; 
+  }
+
+  .btn-outline-success:hover {
+    background-color: #6f42c1; 
+    color: white; 
+  }
+
 #bcirle {
     position: absolute;
     width: 10rem;
@@ -38,9 +49,10 @@
 
 #getStartedBtn{
     color: white;
-    background-color: purple;
-    border:purple;
+    border-radius: 20px;
+    border-color: #6f42c1; 
     transition: background-color 0.3s, color 0.3s;
+    background-color: #6f42c1;
 }
 
 .buttonContainer{
@@ -48,19 +60,23 @@
     justify-content: center;
 }
 
-.getStartedBtn:hover {
+/* .getStartedBtn:hover {
     background-color: white;
     color: purple;
-}
+} */
 
 #exploreBtn{
     background-color: transparent;
-    color: purple;
-    border-color: purple;
+    border-radius: 20px;
+    border-color: #6f42c1; 
+    color: #6f42c1; 
 }
 
 #exploreBtn:hover{
-    background-color: purple;
+    border-radius: 20px;
+    border-color: #6f42c1; 
+    color: #6f42c1; 
+    background-color: #6f42c1;
     color: white;
 }
 

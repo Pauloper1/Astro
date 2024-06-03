@@ -2,5 +2,11 @@
     background-color: transparent !important;
     position: fixed;
     width: 100%; 
-    z-index: 1000; /
+    z-index: 1000; 
+}
+
+.navbarWrapper{
+    /* display: flex;
+    width: auto;
+    justify-content: space-between; */
 }
