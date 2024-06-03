@@ -1,5 +1,6 @@
 import React from 'react'
-
+import { Card } from './Card';
+import './CardContainer.css'
 export const CardContainer = () => {
     const services = [
         {
@@ -30,10 +31,17 @@ export const CardContainer = () => {
 
     return (
         <>
-            <div>CardContainer</div>
-            {services.map((id, item)=>{
-                return <Card item={item}/>
-            })}
+            <div className="cardContainer">
+                {services.map((item, index) => {
+                    return (
+                        <div class="card-body">
+                            <h5 class="card-title">{item.title}</h5>
+                            <p class="card-text">{item.description}</p>
+                        </div>
+                    )
+                })}
+            </div>
+
         </>
     )
 }
