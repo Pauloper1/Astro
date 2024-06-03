@@ -19,12 +19,12 @@ export const Home = () => {
                             <button id='exploreBtn'>Explore</button>
                         </div>
                     </div>
-                    <img id="scirle" src="public\Purple_Circle_2.png" alt="circle1" />
-                    <img id="bcirle" src="public\Purple_Circle.png" alt="circle1" />
+                    <img id="scirle" src="/images/Purple_Circle_2.png" alt="circle1" />
+                    <img id="bcirle" src="/images/Purple_Circle.png" alt="circle1" />
                     
                 </div>
 
-                <img id='sectionbg' alt='softwareImage' src='public\section1.png'></img>
+                <img id='sectionbg' alt='softwareImage' src='/images/section1.png'></img>
             </div>
             <div id='banner2'>
                 <div class="contentContainer">
@@ -62,7 +62,7 @@ export const Home = () => {
                     <div className="table">
                         <Table />
                     </div>
-                    <img id="tablecirle" src="public\Purple_Circle.png" alt="circle1" />
+                    <img id="tablecirle" src="/images/Purple_Circle.png" alt="circle1" />
                 </div>
                 <div className="workWrapper">
                     <div className="content">
