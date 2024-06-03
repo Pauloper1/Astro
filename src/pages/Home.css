@@ -158,15 +158,15 @@
         height: 110vh;
     }
     #scirle {
-        width: 5rem; /* Adjust circle size for smaller screens */
+        width: 5rem; 
     }
 
     #bcirle {
-        width: 8rem; /* Adjust circle size for smaller screens */
+        width: 8rem; 
     }
 
     .buttonContainer button {
-        padding: 0.3em; /* Reduce padding for buttons */
+        padding: 0.3em; 
     }
     .table {
         width: auto;
@@ -193,7 +193,7 @@
 /* Media query for medium screens */
 @media screen and (min-width: 769px) and (max-width: 1024px) {
     .buttonContainer button {
-        padding: 0.3em; /* Reduce padding for buttons */
+        padding: 0.3em; 
     }
     .table {
         width: auto;
@@ -206,8 +206,7 @@
 /* Media query for larger screens */
 @media screen and (min-width: 1025px) {
     .buttonContainer button {
-        padding: 0.5em; /* Restore default padding for buttons */
+        padding: 0.5em; 
     }
 
-    /* Other styles for larger screens... */
 }
