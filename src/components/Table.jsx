@@ -18,8 +18,7 @@ export const Table = () => {
     }, []);
 
     return (
-        <div className="container mt-5">
-            <h2 className="mb-4">Seat Information</h2>
+        <div className="container">
             <table className="table table-striped">
                 <thead>
                     <tr>

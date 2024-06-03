@@ -11,15 +11,17 @@ export const Home = () => {
             <Navbar />
             <div id='banner1'>
                 <div id='background'>
-                    <div className="container align-items-center">
+                    <div className="mainContainer">
                         <h1>Effortlessly Create High-Quality Articles with Our AI Article Generator</h1>
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptate ipsum dolore ab pariatur impedit quibusdam minus sunt sequi, veniam accusantium.</p>
+                        <p>AI has the potential to revolutionize the way we live and work, from improving healthcare and transportation to enhancing the way.</p>
                         <div className="buttonContainer">
                             <button id='getStartedBtn'>Get Started</button>
                             <button id='exploreBtn'>Explore</button>
                         </div>
                     </div>
-
+                    <img id="scirle" src="src\assets\Purple_Circle_2.png" alt="circle1" />
+                    <img id="bcirle" src="src\assets\Purple_Circle.png" alt="circle1" />
+                    
                 </div>
 
                 <img id='sectionbg' alt='softwareImage' src='src\assets\section1.png'></img>
@@ -60,6 +62,7 @@ export const Home = () => {
                     <div className="table">
                         <Table />
                     </div>
+                    <img id="tablecirle" src="src\assets\Purple_Circle.png" alt="circle1" />
                 </div>
                 <div className="workWrapper">
                     <div className="content">

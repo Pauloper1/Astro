@@ -1,23 +1,43 @@
-#banner1{
+/* Default styles */
+#banner1 {
     height: 100vh;
     position: relative;
+}
+
+#scirle {
+    position: absolute;
+    width: 7rem;
+    top:35%;
+    left:24%;
+    opacity: 0.8;
+}
+
+#bcirle {
+    position: absolute;
+    width: 10rem;
+    top:35%;
+    left:64%;
+    opacity: 0.8;
 }
 
 #background {
     background-image: linear-gradient(to bottom right, #FCEDEB, #EDE9F8, #C6D6F9);
     height:60%;
 }
+
 .buttonContainer button{
     padding: 0.5em;
     margin: 1em;
     border-radius:20%;
 }
+
 #getStartedBtn{
     color: white;
     background-color: purple;
     border:purple;
     transition: background-color 0.3s, color 0.3s;
 }
+
 .buttonContainer{
     display: flex;
     justify-content: center;
@@ -37,7 +57,6 @@
 #exploreBtn:hover{
     background-color: purple;
     color: white;
-    /* border-color: purple; */
 }
 
 #sectionbg {
@@ -54,10 +73,8 @@
     display:flex;
     flex-direction: column;
     align-items: center;
-    text-align: center;
-    
+    text-align: center;  
 }
-
 
 .contentContainer {
     margin: 4rem;
@@ -77,16 +94,86 @@
     flex-direction: row;
     justify-content: space-around;
     margin: 2rem;
+    position: relative;
 }
-.workContent{
-    /* display: flex; */
-    /* background-color: #C6D6F9; */
 
+#tablecirle {
+    z-index: -10;
+    position: absolute;
+    opacity: 0.7;
+    left:40%;
+    top:35%;
+    width: 20rem;
 }
+
+.workContent{
+    background-color: white;
+    width: 30rem;
+}
+
 .workContent {
     /* width: 20rem; */
 }
+
 .table {
-    /* width: 20rem; */
-    /* background-color: #C6D6F9; */
+    width: 30rem;
+    background-color: white;
+    margin: 0;
+}
+.barchart{
+    width: auto;
+}
+/* Media query for smaller screens */
+@media screen and (max-width: 768px) {
+    #banner1 {
+        height: 80vh; /* Adjust height for smaller screens */
+    }
+
+    #scirle {
+        width: 5rem; /* Adjust circle size for smaller screens */
+    }
+
+    #bcirle {
+        width: 8rem; /* Adjust circle size for smaller screens */
+    }
+
+    .buttonContainer button {
+        padding: 0.3em; /* Reduce padding for buttons */
+    }
+    .table {
+        width: auto;
+        background-color: white;
+        margin: 0;
+    }
+    .barchart{
+        width: 10rem;
+    }
+
+    #sectionbg{
+        width: 15rem;
+    }
+    /* Other styles for smaller screens... */
+}
+
+/* Media query for medium screens */
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .buttonContainer button {
+        padding: 0.3em; /* Reduce padding for buttons */
+    }
+    .table {
+        width: auto;
+        background-color: white;
+        margin: 0;
+    }
+
+    /* Other styles for medium screens... */
+}
+
+/* Media query for larger screens */
+@media screen and (min-width: 1025px) {
+    .buttonContainer button {
+        padding: 0.5em; /* Restore default padding for buttons */
+    }
+
+    /* Other styles for larger screens... */
 }
