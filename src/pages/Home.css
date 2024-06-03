@@ -1,9 +1,13 @@
-/* Default styles */
 #banner1 {
+    
     height: 100vh;
     position: relative;
 }
 
+.mainContainer{
+    text-align: center;
+    padding: 0 20% 0 20%;
+}
 #scirle {
     position: absolute;
     width: 7rem;
@@ -21,6 +25,7 @@
 }
 
 #background {
+    padding-top: 4.1%;
     background-image: linear-gradient(to bottom right, #FCEDEB, #EDE9F8, #C6D6F9);
     height:60%;
 }
