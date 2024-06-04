@@ -27,7 +27,7 @@ export const Home = () => {
 
                 </div>
 
-                <img id='sectionbg' alt='softwareImage' src='/images/section1.png'></img>
+                <img id='sectionbg' alt='softwareImage' src='/images/section1.png' class="img-fluid"></img>
             </div>
             <div id='banner2' class="container-fluid min-vh-100">
                 <div class="row contentContainer">

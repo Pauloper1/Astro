@@ -150,7 +150,7 @@
     width: auto;
 }
 /* Media query for smaller screens */
-@media screen and (max-width: 768px) {
+/* @media screen and (max-width: 768px) {
     #banner1 {
         height: 80vh;
     }
@@ -189,7 +189,7 @@
     #tablecirle{
         width: 5rem;
     }
-}
+} */
 
 /* Media query for medium screens */
 @media screen and (min-width: 769px) and (max-width: 1024px) {
