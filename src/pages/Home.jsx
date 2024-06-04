@@ -21,32 +21,37 @@ export const Home = () => {
                     </div>
                     <img id="scirle" src="/images/Purple_Circle_2.png" alt="circle1" />
                     <img id="bcirle" src="/images/Purple_Circle.png" alt="circle1" />
-                    
+
                 </div>
 
                 <img id='sectionbg' alt='softwareImage' src='/images/section1.png'></img>
             </div>
-            <div id='banner2' class="vh-100">
-                <div class="contentContainer">
-                    <h1>
-                        Most Popular Tools
-                    </h1>
-                    <p>
-                        These are the most poplular tools and a good place to start. <br />
-                        Give them a try!
-                    </p>
+            <div id='banner2' class="container-fluid min-vh-100">
+                <div class="row contentContainer">
+                    <div className="col">
+                        <h1>
+                            Most Popular Tools
+                        </h1>
+                        <p>
+                            These are the most poplular tools and a good place to start. <br />
+                            Give them a try!
+                        </p>
+                        <div className="cards">
+                            <CardContainer />
+                        </div>
+                    </div>
+
                 </div>
-                <div className="cards">
-                    <CardContainer />
-                </div>
+
             </div>
-            <div className="worksBanner">
+            <div class="container-fluid" className="worksBanner">
+
                 <div className="title">
                     <h1>How it works</h1>
                 </div>
-                <div className="workWrapper">
-                    <div className="workContent">
-                        <div>
+                <div className="container mt-5">
+                    <div class="row">
+                        <div class="col-md-6 col-xs-12">
                             <h2>Enter your post's title & keyword</h2>
                             <p>
                                 Simply provide our AI writer with 1-2 sentences on what to write, and it’ll understand and start writing for you.
@@ -57,16 +62,16 @@ export const Home = () => {
                                 <li><FaCheck /> Choose from 25+ languages</li>
                             </ul>
                         </div>
-
+                        <div class="col-md-6 col-xs-12">
+                            <Table />
+                        </div>
+                        <img id="tablecirle" src="/images/Purple_Circle.png" alt="circle1" />
                     </div>
-                    <div className="table">
-                        <Table />
-                    </div>
-                    <img id="tablecirle" src="/images/Purple_Circle.png" alt="circle1" />
                 </div>
-                <div className="workWrapper">
-                    <div className="content">
-                        <div>
+
+                <div className="container mt-5">
+                    <div className="row ">
+                        <div class="col-md-6 col-xs-12">
                             <h2>Enter your post’s title & keyword</h2>
                             <p>
                                 Simply provide our AI writer with 1-2 sentences on what to write, and it’ll understand and start writing for you.
@@ -77,9 +82,9 @@ export const Home = () => {
                                 <li><FaCheck /> Choose from 25+ languages</li>
                             </ul>
                         </div>
-                    </div>
-                    <div className="barchart">
-                        <Barchart />
+                        <div className="col-md-6 col-xs-12">
+                            <Barchart />
+                        </div>
                     </div>
                 </div>
 

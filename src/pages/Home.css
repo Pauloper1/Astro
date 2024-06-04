@@ -92,18 +92,18 @@
 }
 
 #banner2{
-    height: 100vh;
+    /* height: 100vh; */
     position: relative;
     background-image: linear-gradient(to bottom right, #FDE5BE, #EDE9F8, #C6D6F9);
-    display:flex;
-    flex-direction: column;
+    /* display:flex;
+    flex-direction: column; */
     align-items: center;
     text-align: center;  
 }
 
-.contentContainer {
-    margin: 4rem;
-}
+/* .contentContainer {
+    margin: 2rem;
+} */
 
 /* How it works Page */
 .title{
