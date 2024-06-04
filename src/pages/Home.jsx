@@ -26,7 +26,7 @@ export const Home = () => {
 
                 <img id='sectionbg' alt='softwareImage' src='/images/section1.png'></img>
             </div>
-            <div id='banner2'>
+            <div id='banner2' class="vh-100">
                 <div class="contentContainer">
                     <h1>
                         Most Popular Tools

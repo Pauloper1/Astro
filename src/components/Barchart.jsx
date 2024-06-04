@@ -27,9 +27,7 @@ export const Barchart = () => {
     title: {
       text: 'Bar Chart'
     },
-    xAxis: {
-      categories: barData.map(item => item[0])
-    },
+    
     yAxis: {
       title: {
         text: 'Value'
@@ -44,7 +42,10 @@ export const Barchart = () => {
     }, {
       name: 'Value 3',
       data: barData.map(item => item[3])
-    }]
+    }],
+    xAxis: {
+      categories: barData.map(item => item[0])
+    },
   };
 
   return (
