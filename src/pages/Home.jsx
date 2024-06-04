@@ -9,15 +9,18 @@ export const Home = () => {
     return (
         <>
             <Navbar />
-            <div id='banner1'>
-                <div id='background'>
-                    <div className="mainContainer">
-                        <h1>Effortlessly Create High-Quality Articles with Our AI Article Generator</h1>
-                        <p>AI has the potential to revolutionize the way we live and work, from improving healthcare and transportation to enhancing the way.</p>
-                        <div className="buttonContainer">
-                            <button id='getStartedBtn'>Get Started</button>
-                            <button id='exploreBtn'>Explore</button>
+            <div id='banner1' class='container-fluid'>
+                <div id='background' class='container-fluid'>
+                    <div class="container">
+                        <div class="row text-center">
+                            <h1>Effortlessly Create High-Quality Articles with Our AI Article Generator</h1>
+                            <p>AI has the potential to revolutionize the way we live and work, from improving healthcare and transportation to enhancing the way.</p>
+                            <div className="buttonContainer">
+                                <button id='getStartedBtn'class="btn btn-outline-success">Get Started</button>
+                                <button id='exploreBtn' class="btn btn-outline-success">Explore</button>
+                            </div>
                         </div>
+
                     </div>
                     <img id="scirle" src="/images/Purple_Circle_2.png" alt="circle1" />
                     <img id="bcirle" src="/images/Purple_Circle.png" alt="circle1" />

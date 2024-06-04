@@ -24,7 +24,7 @@
 
   .btn-outline-success:hover {
     background-color: #6f42c1; 
-    color: white; 
+    color: white;   
   }
 
 #bcirle {
@@ -48,14 +48,15 @@
     border-radius:20%;
 }
 
-#getStartedBtn{
+/* #getStartedBtn{
     z-index: 3;
     color: white;
     border-radius: 20px;
     border-color: #6f42c1; 
     transition: background-color 0.3s, color 0.3s;
     background-color: #6f42c1;
-}
+} */
+
 
 .buttonContainer{
     display: flex;
@@ -67,21 +68,21 @@
     color: purple;
 } */
 
-#exploreBtn{
+/* #exploreBtn{
     z-index: 3;
     background-color: transparent;
     border-radius: 20px;
     border-color: #6f42c1; 
     color: #6f42c1; 
-}
+} */
 
-#exploreBtn:hover{
+/* #exploreBtn:hover{
     border-radius: 20px;
     border-color: #6f42c1; 
     color: #6f42c1; 
     background-color: #6f42c1;
     color: white;
-}
+} */
 
 #sectionbg {
     z-index: 0;
